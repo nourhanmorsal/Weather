@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    background-color: var(--bg-color);
+    font-size: 14px;
+}
+
+:root {
+    --primary-color: #009ad8;
+    --bg-color: #1e202b;
+
+}
+.container{
+    width: 77%
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    padding: 40px 0;
+    color: white;
+}
+
+.logo img {
+    width: 64px;
+    height: 38px;
+}
+
+.logo-text h1 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.logo-text p {
+    font-size: 10px;
+    color: #bfc1c8;
+    margin: 0;
+}
+
+nav a {
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+
+nav .active {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+header {
+    background-image: url(../Images/banner\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+.find-location, .subscribe{
+position: relative;
+margin-bottom: 70px;
+}
+.subscribe{
+    margin-bottom: 24px;
+}
+
+.find-location input, .subscribe input {
+    background-color: var(--bg-color);
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: none;
+    color: white;
+}
+.find-location input:focus, .subscribe input:focus{
+    outline: none;
+}
+
+
+.find-location .btn, .subscribe .btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 10px 40px;
+    background-color: var(--primary-color);
+    color: white;
+
+}
+.subscribe .btn{
+    padding: 10px 20px;
+}
+.weather-section{
+    margin-top: -150px;
+    
+}
+.today, .day-3{
+    background-color: #323544;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    -ms-border-radius: 10px 0 0 10px;
+    -o-border-radius: 10px 0 0 10px;
+}
+.day-3 {
+    border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -ms-border-radius: 0 10px 10px 0;
+    -o-border-radius: 0 10px 10px 0;
+}
+.day-info{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.weather-info{
+    padding: 50px 20px 10px;
+}
+.location{
+    font-size: 1.3rem;
+}
+.degree div{
+    font-size: 6.4rem;
+    font-weight: bold;
+    color: white;
+}
+.weather-icon-1{
+    height: 50px;
+}
+.weather-icon-1 img{
+    width: 90px;
+    height: 90px;
+}
+.clear{
+    color: var(--primary-color);
+    margin: 20px 0;
+}
+.list li{
+    margin-right: 20px;
+    
+}
+.list img{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px
+}
+.tomorrow{
+    background-color: #262936;
+    height: 100%;
+}
+ .weather-icon{
+    margin-bottom: 20px;
+}
+ .weather-icon img{
+    width: 48px;
+    height: 48px;
+    
+}
+.degree{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+.degree p{
+    font-size: 16px;
+}
+footer{
+    background: #262936;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+.social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: var(--bg-color);
+    color: var(--primary-color);
+    text-align: center;
+    line-height: 40px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.social-links a:hover{
+    background-color: var(--primary-color);
+    color: white;
+}

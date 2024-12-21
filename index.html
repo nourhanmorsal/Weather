@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Start nav -->
+    <nav>
+        <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+            <a href="" class="d-flex gap-3">
+                <img src="./Images/logo@2x.png" alt="logo">
+                <div class="logo-text ">
+                    <h1>Weather</h1>
+                    <p>tagline goes here</p>
+                </div>
+            </a>
+        </div>
+        <div class="nav-links">
+            <ul class="d-flex justify-content-between list-unstyled">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Live Cameras</a></li>
+            <li><a href="">Photos</a></li>
+            <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <!-- End nav -->
+     <!-- Start Header -->
+    <header>
+        <div class="container">
+            <div class="find-location">
+        <input id="city-input" type="text" placeholder="Find your location...">
+        <button id="btn" class="btn rounded-pill">Find</button>
+    </div>
+    </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Weather-section -->
+     <div class="weather-section">
+        <div class="container">
+            <div class="row g-0" >
+        <div class="col-md-4">
+            <div class="today">
+            <div class="day-info d-flex justify-content-between">
+                <span class="day"></span>
+                <span class="date"></span>
+            </div>
+            <div class="weather-info">
+                <div class="location"></div>
+                <div class="degree">
+                    <div></div>
+                  
+                    <div class="weather-icon-1 d-flex align-items-center">
+                        <img src="" alt="icon" >
+                    </div>	
+                
+                </div>
+                <div class="clear"></div>
+                <ul class="list list-unstyled d-flex ">
+                    <li><img src="./Images/icon-umberella@2x.png" alt="">20%</li>
+                    <li><img src="./Images/icon-wind@2x.png" alt="">18km/h</li>
+                    <li><img src="./Images/icon-compass@2x.png" alt="">East</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-4">
+            <div class="tomorrow text-center">
+                <div class="day-info">
+                    <span class="day"></span>   
+                </div>
+                <div class="weather-info">
+                    <div class="weather-icon">
+                        <img src="" alt="icon" >
+                    </div>	
+                    <div class="degree"></div>
+                    <p></p>
+                    <div class="clear"></div>
+                </div>
+
+                
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="day-3 text-center">
+                <div class="day-info">
+                    <span class="day"></span>   
+                </div>
+                <div class="weather-info">
+                    <div class="weather-icon">
+                        <img src="" alt="icon" >
+                    </div>	
+                    <div class="degree"></div>
+                    <p></p>
+                    <div class="clear"></div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+     </div>
+    <!-- End Weather-section -->
+    <!-- Start Footer -->
+     <footer>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+            <div class="subscribe">
+                <input type="text" placeholder="Enter your email to subscribe...">
+                <button class="btn rounded-pill">Subscribe</button>
+            </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-end ">
+                <div class="social-links">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+     </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
